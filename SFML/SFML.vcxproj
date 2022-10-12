@@ -130,13 +130,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Class.cpp" />
+    <ClCompile Include="graphics.cpp" />
+    <ClCompile Include="iDrawable.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="VideoCore.cpp" />
+    <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Class.h" />
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="iDrawable.h" />
     <ClInclude Include="Matrix.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="VideoCore.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SFML.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
